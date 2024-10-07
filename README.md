@@ -21,4 +21,6 @@ Dataset creation：
            (5f821d39+c9868e99+e231f1ac)&0xfffffff=0b3a9d7e
            77478d6c 0b3a9d7e 40a4964c
 So the NVIDIA 2060 6g can calculate 170 million address data points
+
+
 Get calculation password: Send 300U to: 0x77478d6c5f821d39c9868e99e231f1ac40a4964c, send transaction information to emil: piao2200@qq.com. If obtaining the source code: 1000U
