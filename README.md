@@ -1,16 +1,24 @@
 # cuda_eth
 ETH/BNB Mnemonic word collider (ETH/BNB助记词碰撞器)
+
 Local graphics card calculation
+
 NVIDIA 2060：collides 11000+ times per second
+
 Usage steps：
+
    1）In Password：run main_cuda_eth.exe Prompt for password input 
+   
    2）Input Core Tread Max：Input the number of cores for calculation, for example, CUDA 2060 is 6000 
+   
    3）Cuda chonsenDevice Num：Select the GPU to be calculated 
+   
    4) Input start data hex...： How to Calculate, Enter four 32-bit starting numbers for calculation, and then continuously add them up violently. 
             一) If the second digit of the input is not zero, the calculation will start based on the input data. 
             二) If the second digit of the input is 333, it will be calculated as a continuously created random number. 
             三) If the input is 0 0 0 0, create a random number and start accumulating forever.
-   5) Intermittent Print：How many times to calculate and print once
+      
+   6) Intermittent Print：How many times to calculate and print once
 
 Dataset file：sethadder.bit
     Run the test dataset，Enter 0 100 0 0 in step 4，The test calculation results will be displayed。
