@@ -7,7 +7,7 @@ NVIDIA 2060：collides 11000+ times per second
 
 Usage steps：
 
-   1）In Password：run main_cuda_eth.exe Prompt for password input 
+   1）In Password：run mainprint.exe Prompt for password input 
    
    2）Input Core Tread Max：Input the number of cores for calculation, for example, CUDA 2060 is 6000 
    
